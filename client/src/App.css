@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo{
+  height:100px;
+  border-radius: 100% ;
+}
+
+body{
+  background-image: url("https://thescriptblog.com/wp-content/uploads/2020/10/tumblr_inline_nrvrnfIALM1rk1lvi_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh
+
+}
+
+.pageContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.topTier{
+  height:150px;
+  width:500px;
+  background-color: #272727;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 25px;
+}
+
+.bottomTier{
+  height:1000px;
+  width:1500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:25px;
+  margin-top: 45px;
+  background-color: #ffffffe2;
+  border: solid 3px #272727 ;
+  border-radius: 15px;
+} 
+
+.description{
+  margin-top: 15px;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.pic{
+  height:350px;
+  border-radius: 10px;
+}
+
+.survHeader{
+  height: 250px;
+  width: 550px;
+  background-color: #272727ec;
+  border-radius: 15px;
+}
+
+.survHeader h2{
+  color: white;
+}
+
+.survey{
+  align-items: center;
+}
+.btnS{
+  margin-bottom:10px;
+
+}
+.imdb{
+  height:30px;
+}
+
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topHeader{
+    height: 80px;
+    width: 400px;
+    background-color: #272727ec;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picMain{
+  height:140px;
+  border-radius: 15px;
+}
